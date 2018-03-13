@@ -1,6 +1,8 @@
 MR对日志进行解析操作
 
 
+所需依赖文件配置
+
 <!-- HADOOP 依赖 -->
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
