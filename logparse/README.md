@@ -44,8 +44,7 @@ MR对日志进行解析操作
 		
 		
 单机命令：
-
-   java -cp exec.jar com.cn.ParseWebh5LogMR  2008-01-01                                                                                      
+   java -cp exec.jar com.cn.ParseWebh5LogMR  2008-01-01  
+   
 集群命令:
-
    hadoop jar exec.jar com.cn.ParseWebh5LogMR 2008-01-01
