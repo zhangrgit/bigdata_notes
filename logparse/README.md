@@ -67,8 +67,10 @@ MR对日志进行解析操作
      Counters counters =job.getCounters();   
      
      
+     
      // 获取系统内置的counter信息
      counters.findCounter(TaskCounter.MAP_INPUT_RECORDS).getValue()
+     
      
      // 获取自定义counter信息
      count= counters.findCounter("webh5", "PAGE_EVENT_COUNT").getValue();
