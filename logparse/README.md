@@ -43,10 +43,10 @@ MR对日志进行解析操作
 		</dependency>
 		
 		
-Single node command：
+单机命令：
 
    java -cp target.jar com.cn.ParseWebh5LogMR  2008-01-01
    
-cluster command:
+集群命令:
 
    hadoop jar target.jar com.cn.ParseWebh5LogMR 2008-01-01
