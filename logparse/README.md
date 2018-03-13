@@ -64,7 +64,8 @@ MR对日志进行解析操作
      
      在主方法进行结果获取操作：
      
-     Counters counters =job.getCounters();    
+     Counters counters =job.getCounters();   
+     
      
      // 获取系统内置的counter信息
      counters.findCounter(TaskCounter.MAP_INPUT_RECORDS).getValue()
