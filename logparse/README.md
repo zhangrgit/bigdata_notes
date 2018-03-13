@@ -75,6 +75,6 @@ MR对日志进行解析操作
      // 获取自定义counter信息
      count= counters.findCounter("webh5", "PAGE_EVENT_COUNT").getValue();
      
-     见 ： http://blog.csdn.net/shenfuli/article/details/50589387
+     见 ： http://blog.csdn.net/shenfuli/article/details/50589387 <a href='#'>aaa</a>
     
 
