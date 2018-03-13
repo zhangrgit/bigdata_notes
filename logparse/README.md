@@ -41,3 +41,12 @@ MR对日志进行解析操作
 			<artifactId>hadoop-hdfs</artifactId>
 			<version>2.6.0</version>
 		</dependency>
+		
+		
+Single node command：
+
+   java -cp target.jar com.cn.ParseWebh5LogMR  2008-01-01
+   
+cluster command:
+
+   hadoop jar target.jar com.cn.ParseWebh5LogMR 2008-01-01
